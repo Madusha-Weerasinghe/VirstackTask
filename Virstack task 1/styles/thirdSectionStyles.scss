@@ -1,0 +1,56 @@
+$text-colorOne: #615454;
+$text-colorTwo: #a09797;
+$font-size: 14px;
+
+.container {
+  background: #fff;
+  padding-left: 10px;
+  border-radius: 10px;
+  text-align: left;
+  padding-top: 10px;
+}
+
+#extraOptions {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#ownCheck {
+  margin-top: 10px;
+}
+
+#ownJob {
+  font-size: $font-size;
+  margin-top: 10px;
+  color: $text-colorOne;
+}
+
+#handler {
+  color: $text-colorTwo;
+  font-size: $font-size;
+}
+
+#radio1 {
+  color: $text-colorOne;
+  margin-left: 10px;
+  font-size: $font-size;
+}
+
+#radio2 {
+  color: $text-colorOne;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.radio-container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.radio-container label {
+  display: block;
+  margin-bottom: 5px;
+}

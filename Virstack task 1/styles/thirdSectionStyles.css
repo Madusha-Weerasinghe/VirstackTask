@@ -1,0 +1,54 @@
+.container {
+  background: #fff;
+  padding-left: 10px;
+  border-radius: 10px;
+  text-align: left;
+  padding-top: 10px;
+}
+
+#extraOptions {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#ownCheck {
+  margin-top: 10px;
+}
+
+#ownJob {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #615454;
+}
+
+#handler {
+  color: #a09797;
+  font-size: 14px;
+}
+
+#radio1 {
+  color: #615454;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+#radio2 {
+  color: #615454;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.radio-container {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.radio-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/*# sourceMappingURL=thirdSectionStyles.css.map */
