@@ -137,21 +137,26 @@
   font-size: 14px;
   color: #888;
 }
-.data-section #firstBtn {
-  font-size: 12px;
-  color: #888;
-}
-.data-section #prevBtn {
-  font-size: 12px;
-  color: #888;
-}
-.data-section #nextBtn {
-  font-size: 12px;
-  color: #888;
-}
+.data-section #firstBtn,
+.data-section #prevBtn,
+.data-section #nextBtn,
 .data-section #lastBtn {
   font-size: 12px;
   color: #888;
+  cursor: pointer;
+}
+.data-section #firstBtn.disabled,
+.data-section #prevBtn.disabled,
+.data-section #nextBtn.disabled,
+.data-section #lastBtn.disabled {
+  color: #ccc;
+  pointer-events: none;
+}
+.data-section #firstBtn:hover,
+.data-section #prevBtn:hover,
+.data-section #nextBtn:hover,
+.data-section #lastBtn:hover {
+  color: #007bff;
 }
 
 /*# sourceMappingURL=firstSectionStyles.css.map */

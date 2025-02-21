@@ -4,6 +4,7 @@
   text-align: left;
   max-height: 350px;
   overflow-y: auto;
+  padding-left: 5px;
 }
 
 .container::-webkit-scrollbar {
@@ -16,9 +17,9 @@
 }
 
 #secondSectionTitle {
-  font-size: 12px;
   color: #6d7c91;
   margin-bottom: 10px;
+  font-size: 14px;
 }
 
 select {
@@ -42,11 +43,11 @@ select:focus {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 12px;
-  color: #949699;
+  color: #5c6b80;
 }
 
 .hidden-div {
-  display: none;
+  display: none !important;
   margin-top: 20px;
   padding: 20px;
   background-color: #f4f4f9;
@@ -56,7 +57,7 @@ select:focus {
 }
 
 .visible-div {
-  display: block;
+  display: block !important;
 }
 
 .view-container {
@@ -138,12 +139,6 @@ select:focus {
 }
 #phasesTable tr:hover {
   background-color: #e4e4e4;
-}
-
-#secondSectionTitle {
-  font-size: 16px;
-  color: #6d7c91;
-  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=secondSectionStyles.css.map */

@@ -10,6 +10,7 @@ $text-color: #5c6b80;
   text-align: left;
   max-height: 350px;
   overflow-y: auto;
+  padding-left: 5px;
 }
 
 .container::-webkit-scrollbar {
@@ -22,9 +23,9 @@ $text-color: #5c6b80;
 }
 
 #secondSectionTitle {
-  font-size: 12px;
   color: $primary-color;
   margin-bottom: 10px;
+  font-size: 14px;
 }
 
 select {
@@ -49,11 +50,11 @@ select {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 12px;
-  color: #949699;
+  color: $text-color;
 }
 
 .hidden-div {
-  display: none;
+  display: none !important;
   margin-top: 20px;
   padding: 20px;
   background-color: $background-light;
@@ -63,7 +64,7 @@ select {
 }
 
 .visible-div {
-  display: block;
+  display: block !important;
 }
 
 .view-container {
@@ -151,10 +152,4 @@ select {
   tr:hover {
     background-color: #e4e4e4;
   }
-}
-
-#secondSectionTitle {
-  font-size: 16px;
-  color: $primary-color;
-  margin-bottom: 10px;
 }

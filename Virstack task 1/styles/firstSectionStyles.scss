@@ -162,23 +162,21 @@ $text-color: #333;
     color: #888;
   }
 
-  #firstBtn {
-    font-size: 12px;
-    color: #888;
-  }
-
-  #prevBtn {
-    font-size: 12px;
-    color: #888;
-  }
-
-  #nextBtn {
-    font-size: 12px;
-    color: #888;
-  }
-
+  #firstBtn,
+  #prevBtn,
+  #nextBtn,
   #lastBtn {
     font-size: 12px;
     color: #888;
+    cursor: pointer;
+
+    &.disabled {
+      color: #ccc;
+      pointer-events: none;
+    }
+
+    &:hover {
+      color: $primary-color;
+    }
   }
 }

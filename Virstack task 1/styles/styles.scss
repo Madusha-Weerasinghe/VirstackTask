@@ -78,15 +78,16 @@ html {
 
 .dots-container {
   display: flex;
-  justify-content: center; /* Center the dots */
+  justify-content: center;
   align-items: center;
   gap: 10px;
-  flex-grow: 1; /* Allow dots to take available space */
+  flex-grow: 1;
+  margin-left: 75px;
 }
 
 .dot {
-  width: 10px;
-  height: 10px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   background-color: #ccc;
   transition: background-color 0.3s;
